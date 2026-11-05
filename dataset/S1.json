@@ -1,0 +1,6 @@
+{
+  "cenario": "S1",
+  "descricao": "Energia RMSP - O suposto sucesso do canal digital (queda de prazo) oculta o colapso na resolução de queixas de energia.",
+  "contexto": " Mes_2025   Canal_Atendimento       Segmento_Setorial  Prazo_Medio_Resposta_Dias  Reclamacoes_Abertas  Indice_de_Solucao_Percentual  Nota_Satisfacao_Consumidor\n  Janeiro Agência Virtual/App Energia Elétrica (RMSP)                        8.4                 1200                          82.0                         4.0\nFevereiro Agência Virtual/App Energia Elétrica (RMSP)                        5.1                 1540                          61.2                         3.1\n    Março Agência Virtual/App Energia Elétrica (RMSP)                        3.0                 2100                          45.0                         2.0\n    Abril Agência Virtual/App Energia Elétrica (RMSP)                        1.8                 2980                          31.5                         1.2",
+  "pergunta": "A tese da diretoria de que a transição para o canal digital (App) foi um sucesso se sustenta cientificamente frente a estes dados de atendimento na RMSP? Justifique."
+}

@@ -1,0 +1,6 @@
+Audite a resposta preliminar. Verifique se algum indicador relevante foi omitido, se períodos ou unidades foram comparados inadequadamente, se a hipótese inicial foi aceita sem teste, se existem alternativas não consideradas e se alguma afirmação excede os dados. Liste correções necessárias sem reescrever a resposta. 
+
+Reescreva a análise considerando a crítica produzida. Preserve apenas afirmações sustentadas pelos dados, diferencie observações de hipóteses, reconheça limitações e apresente uma conclusão final calibrada.
+
+Resposta Inicial:
+{resposta_inicial}

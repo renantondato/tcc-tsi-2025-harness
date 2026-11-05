@@ -1,0 +1,5 @@
+Execute uma análise em etapas verificáveis. Primeiro, defina a pergunta e os critérios relevantes. Em seguida, confira períodos, unidades, segmentos e definições dos indicadores. Liste evidências que sustentam a interpretação inicial e evidências que a enfraquecem. Formule hipóteses alternativas e indique quais dados adicionais permitiriam diferenciá-las. Ao final, apresente uma conclusão proporcional à força das evidências, sem incluir informações externas ao cenário.
+
+Cenário original:
+{contexto}
+Pergunta: {pergunta}

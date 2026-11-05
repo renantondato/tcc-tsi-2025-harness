@@ -1,0 +1,12 @@
+Compare as três análises candidatas com os dados originais. Identifique convergências, divergências, omissões e afirmações sem suporte. Não selecione uma conclusão apenas por aparecer com maior frequência. Produza uma síntese final que preserve as hipóteses relevantes e escolha apenas as interpretações mais sustentadas pelas evidências. Registre incertezas que não possam ser resolvidas.
+
+Abaixo estão 3 análises independentes sobre o mesmo problema. Analise as concordâncias e divergências e elabore uma síntese final consolidada.
+
+Análise 1:
+{analise_1}
+
+Análise 2:
+{analise_2}
+
+Análise 3:
+{analise_3}

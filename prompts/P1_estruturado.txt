@@ -1,0 +1,5 @@
+Analise o cenário utilizando somente as informações fornecidas. Organize a resposta in: (1) observações sustentadas pelos dados; (2) hipóteses que ainda precisam ser verificadas; (3) limitações ou informações ausentes; e (4) conclusão e recomendação. Não invente valores, fatos ou relações causais.
+
+Cenário original:
+{contexto}
+Pergunta: {pergunta}

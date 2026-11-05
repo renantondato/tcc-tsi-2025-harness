@@ -1,0 +1,6 @@
+{
+  "cenario": "S0",
+  "descricao": "Saneamento RMSP - Desempenho convergente de melhora nas concessionárias de água e esgoto da Grande SP.",
+  "contexto": "Trimestre        Municipio_RMSP Servico_Concedido  Reclamacoes_Registradas  Indice_de_Solucao_Percentual  Nota_Satisfacao_1_a_5  Prazo_Medio_Resposta_Dias\n  T1-2025   São Paulo (Capital)     Água e Esgoto                     3500                          74.2                    2.9                        8.1\n  T2-2025 São Bernardo do Campo     Água e Esgoto                     2900                          79.8                    3.4                        6.0\n  T3-2025             Guarulhos     Água e Esgoto                     2400                          85.1                    4.1                        4.2\n  T4-2025           Santo André     Água e Esgoto                     1800                          91.5                    4.7                        2.1",
+  "pergunta": "Com base na série temporal das concessionárias de Saneamento na RMSP, qual o diagnóstico de desempenho e qual a recomendação gerencial?"
+}

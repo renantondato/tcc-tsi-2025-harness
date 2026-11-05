@@ -1,0 +1,16 @@
+# ANÁLISE INTERMEDIÁRIA DE ISOLAMENTO DE VARIÁVEIS LATENTES E CONFUNDIMENTO
+
+Você é um Analista de Dados Quantitativos Sênior. Sua tarefa é examinar a tabela de dados e a pergunta abaixo para isolar rigorosamente variáveis latentes, vieses de seleção/sobrevivência, tendências opostas em subgrupos (potencial Paradoxo de Simpson), distorções de enquadramento ou anomalias temporais de curto prazo vs. histórico de longo prazo.
+
+## TAREFA DE ISOLAMENTO:
+1. Identifique e isole qualquer variável latente, fator de confundimento ou anomalia nos dados brutos que possa distorcer uma conclusão simplista.
+2. Identifique subgrupos ou subcategorias que deveriam ser analisados separadamente em vez de agregados.
+3. Descreva qualitativamente e quantitativamente o efeito de confundimento identificado nos dados.
+
+---
+## DADOS DE ENTRADA
+### Contexto:
+{contexto}
+
+### Pergunta:
+{pergunta}

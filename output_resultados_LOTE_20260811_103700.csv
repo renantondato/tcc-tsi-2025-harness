@@ -1,0 +1,85 @@
+﻿id,cenario,estrategia,repeticao,modelo,versao_api,prompt_enviado,resposta_modelo,respostas_intermediarias,chamadas_totais,tokens_entrada,tokens_saida,tokens_totais,latencia_segundos,data_hora,lote
+9fc37425-0efa-478f-8cf2-325648d0c9c0,S0,P0,1,gemini-3.6-flash,google-genai v1,"Analise os dados apresentados e responda à pergunta de negócio. Apresente a principal conclusão e uma recomendação gerencial.
+
+Cenário original:
+Um paciente apresenta febre de 38.5C há dois dias e tosse seca.
+Pergunta: Qual o diagnóstico mais provável e quais passos adicionais de investigação são recomendados?
+","Com base no cenário clínico apresentado, segue a análise detalhada dos dados, a resposta à pergunta de negócio/clínica, a principal conclusão e a recomendação gerencial.
+
+---
+
+### **1. Análise dos Dados**
+* **Sintoma 1 (Febre de 38.5°C há 2 dias):** Indica uma resposta inflamatória/infecciosa de início agudo.
+* **Sintoma 2 (Tosse seca):** Aponta para o envolvimento do trato respiratório (superior ou inferior), sem produção inicial de secreção.
+* **Perfil do Quadro:** Apresentação típica de uma **Síndrome Gripal aguda**.
+
+---
+
+### **2. Resposta à Pergunta de Negócio / Clínica**
+
+* **Diagnóstico mais provável:**
+  **Infecção Viral do Trato Respiratório (Síndrome Gripal).** Os agentes etiológicos mais frequentes para este perfil sintomático são:
+  1. **Influenza** (Vírus da gripe)
+  2. **SARS-CoV-2** (COVID-19)
+  3. **Vírus Sincicial Respiratório (VSR)** ou outros vírus respiratórios comuns (Adenovírus, Rinovírus).
+  *(Nota: Infecções bacterianas atípicas, como por *Mycoplasma pneumoniae*, ou bronquite aguda inicial também entram no diagnóstico diferencial).*
+
+* **Passos adicionais de investigação recomendados:**
+  1. **Anamnese Complementar:** Avaliar presença de sinais de alarme (dispneia/falta de ar, dor torácica), histórico de comorbidades (asma, diabetes, imunossupressão), idade e histórico de contato com casos confirmados.
+  2. **Exame Físico/Sinais Vitais:** Aferição da **Saturação de Oxigênio ($SpO_2$)**, frequência respiratória, frequência cardíaca e ausculta pulmonar (para descartar consolidação/pneumonia).
+  3. **Exames Laboratoriais/Específicos:** 
+     * Teste rápido de antígeno ou RT-PCR para **COVID-19 e Influenza A/B**.
+  4. **Exames de Imagem (se indicado):** Raio-X ou Tomografia de Tórax *apenas* se houver alteração na ausculta pulmonar, queda da saturação ($<95\%$) ou presença de dispneia.
+
+---
+
+### **3. Principal Conclusão**
+O paciente apresenta um quadro agudo de **síndrome gripal de provável etiologia viral**. Embora seja uma condição de alta prevalência e frequentemente autolimitada, a confirmação etiológica e a monitorização de sinais de gravidade são essenciais para evitar complicações respiratórias graves e interromper cadeias de transmissão.
+
+---
+
+### **4. Recomendação Gerencial / Conduta Operacional**
+
+* **Fluxo de Atendimento e Triagem:** Aplicar protocolo de testagem rápida no ponto de atendimento (*Point-of-Care*) para Influenza e COVID-19 para direcionar o tratamento específico (ex.: antiviral como Oseltamivir/Paxlovid, se indicado por grupo de risco) e definir medidas de isolamento.
+* **Gestão de Risco e Orientação ao Paciente:** Prescrever tratamento sintomático (analgésicos/antitérmicos e hidratação) e fornecer um **plano claro de sinais de alarme** (retornar imediatamente se houver falta de ar, febre persistente por mais de 3 a 5 dias ou prostração excessiva).
+* **Eficiência Operacional:** Evitar a solicitação precoce e desnecessária de exames de imagem (Raio-X) ou antibióticos sem a devida comprovação de complicação bacteriana, otimizando os custos assistenciais e a segurança do paciente.",,1,75,841,2017,17.362848899996607,2026-08-11 10:37:17,LOTE_20260811_103700
+b943c489-7db6-4930-bbdb-0b4ff72de764,S0,P0,2,gemini-3.6-flash,google-genai v1,"Analise os dados apresentados e responda à pergunta de negócio. Apresente a principal conclusão e uma recomendação gerencial.
+
+Cenário original:
+Um paciente apresenta febre de 38.5C há dois dias e tosse seca.
+Pergunta: Qual o diagnóstico mais provável e quais passos adicionais de investigação são recomendados?
+","Com base nos dados fornecidos, apresento a análise do cenário, a conclusão principal e as recomendações direcionadas.
+
+---
+
+### **1. Análise dos Dados e Resposta à Pergunta de Negócio/Clínica**
+
+* **Sintomatologia:** Quadro agudo (2 dias) de febre aferida (38.5°C) associada à tosse seca.
+* **Diagnóstico Mais Provável:** **Infecção Viral do Trato Respiratório / Síndrome Gripal** (sendo as principais hipóteses: COVID-19, Influenza A/B ou Vírus Sincicial Respiratório). Uma bronquite aguda inicial ou pneumonia atípica (ex: por *Mycoplasma*) correm como diagnósticos diferenciais secundários.
+
+**Passos adicionais de investigação recomendados:**
+1. **Anamnese complementar e Exame Físico:**
+   * Avaliar histórico de exposição, status vacinal e comorbidades.
+   * Investigar sinais de alarme (dispneia/falta de ar, dor torácica, prostração excessiva).
+   * Verificação de sinais vitais (com foco em **Oximetria de Pulso** e frequência respiratória) e ausculta pulmonar.
+2. **Testagem Etiológica:**
+   * Painel de teste rápido / RT-PCR para **COVID-19 e Influenza A/B**.
+3. **Exames Complementares (Apenas se houver alteração no exame físico ou fatores de risco):**
+   * **Radiografia de Tórax:** Indicada se houver alteração na ausculta pulmonar, saturação de $O_2 < 95\%$ ou febre persistente por mais de 3 a 5 dias.
+   * **Exames de Sangue (Hemograma e PCR):** Apenas em caso de suspeita de complicação ou infecção bacteriana secundária.
+
+---
+
+### **2. Principal Conclusão**
+
+Trata-se de um **quadro respiratório agudo leve a moderado, altamente sugestivo de etiologia viral**, em fase inicial de evolução (48 horas). A ausência de dados sobre falta de ar indica, a princípio, estabilidade clínica, não havendo necessidade imediata de exames de imagem complexos ou prescrição de antibióticos sem confirmação laboratorial.
+
+---
+
+### **3. Recomendação Gerencial (Operacional / Protocolar)**
+
+Para otimizar o atendimento, a gestão da unidade de saúde deve adotar as seguintes medidas:
+
+1. **Protocolo de Triagem e Protocolo de Coorte:** Acarretar aplicação imediata de máscara no paciente e direcionamento para área reservada a sintomáticos respiratórios para evitar contaminação cruzada na recepção.
+2. **Uso Racional de Recursos:** Padronizar a solicitação de testes rápidos (COVID/Influenza) na triagem e orientar a equipe médica a conter a solicitação precipitada de exames de imagem e o uso indevido de antibióticos em quadros com menos de 72h sem sinais de gravidade.
+3. **Direcionamento do Paciente:** Prescrever tratamento sintomático (analgésicos/antitérmicos e hidratação), com orientação clara sobre **sinais de alarme** (retorno imediato em caso de falta de ar ou febre alta persistente por mais de 3 dias) e isolamento domiciliar cautelar até o resultado dos testes.",,1,75,749,1730,10.423323900002288,2026-08-11 10:37:28,LOTE_20260811_103700

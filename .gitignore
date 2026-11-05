@@ -1,0 +1,40 @@
+# Ambientes Virtuais (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Caches e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Banco de dados SQLite local do experimento
+storage/*.db
+storage/*.db-journal
+storage/*.db-shm
+storage/*.db-wal
+
+# Arquivos de dados de saída local
+output_resultados_finais.csv
+resumo_experimento.md
+
+# Configurações locais e Chaves de API
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

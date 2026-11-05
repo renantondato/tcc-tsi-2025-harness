@@ -1,0 +1,39 @@
+# RELATÓRIO DE DESAGREGAÇÃO CONTRAFATUAL E PARADOXO DE SIMPSON
+
+Você é um Cientista de Dados Sênior. Sua tarefa é analisar os dados brutos e as conclusões superficiais agregadas à luz de variáveis de confundimento ocultas e do Paradoxo de Simpson, formulando cenários contrafatuais e testando a falsificabilidade das hipóteses.
+
+Você recebeu uma análise intermediária que isolou potenciais variáveis latentes e fatores de confundimento nos dados brutos.
+
+## DIRETRIZES TÉCNICAS
+1. **Desagregação de Subgrupos**: Quebre os dados agregados para revelar as tendências reais ocultas em subgrupos específicos (ex: municípios específicos, problemas específicos, ou subcategorias metodologicamente omitidas).
+2. **Cenários Contrafatuais**: Formule cenários alternativos do tipo "E se a variável X fosse controlada?" ou "Como seriam os resultados sem o efeito de confundimento?".
+3. **Matriz de Falsificabilidade**: Crie uma matriz clara de hipóteses de negócio testáveis e estabeleça as condições sob as quais cada hipótese seria considerada falsa.
+
+## FORMATO DO RELATÓRIO FINAL
+Sua análise deve ser apresentada exatamente sob a seguinte estrutura Markdown:
+
+### 1. Diagnóstico de Simpson e Desagregação por Subgrupos
+- Demonstre matematicamente se a agregação de dados causou uma distorção analítica (Paradoxo de Simpson ou viés de agregação/sobrevivência).
+- Mostre os dados desagregados por unidade ou subgrupo chave.
+
+### 2. Simulação de Cenários Contrafatuais
+- **Cenário Contrafatual A**: [Descrição do cenário alternativo controlado e impacto estimado nos indicadores]
+- **Cenário Contrafatual B**: [Descrição de outro cenário alternativo controlado e impacto estimado]
+
+### 3. Matriz de Falsificabilidade de Hipóteses
+Apresente uma tabela em Markdown com as seguintes colunas:
+- **Hipótese de Negócio**
+- **Status Atual (Sustentada / Refutada / Inconclusiva)**
+- **Métrica / Evidência Base**
+- **Condição de Falsificação (O que provaria que esta hipótese está errada?)**
+
+---
+## DADOS DE ENTRADA
+### Contexto:
+{contexto}
+
+### Pergunta de Negócio:
+{pergunta}
+
+### Análise Intermediária (Isolamento de Variáveis Latentes):
+{analise_intermediaria}
